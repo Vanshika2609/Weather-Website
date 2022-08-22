@@ -1,0 +1,99 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+#button-insert{
+  background-color: #1c87c9;
+  border: none;
+  color: white;
+  padding: 20px 34px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+body{
+  background-color: #90E0EF;
+  height: 100px;
+}
+#search-form{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+#temp{
+  text-align: center;
+}
+#temp #temp-unit{
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  color: #ffffff;
+}
+#temp #temp-value{
+  font-size: 2rem;
+  font-family: sans-serif;
+  color: #ffffff;
+}
+#climate{
+  font-size: 2.5rem;
+  font-family: sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+#location{
+  font-size: 2.5rem;
+  font-family: sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+#temp-icon{
+  margin: 1rem;
+  width: 40%;
+  height: auto;
+}
+main{
+  margin: 10px;
+  padding: 20px;
+  background-color: #9AD0EC;
+  border-radius: 20px;
+  width: 360px;
+  height: 360px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+#search-button{
+  color: #362706;
+background-color: #ffffff;
+border-radius: 5px;
+margin-left: 5px;
+padding: 11px
+
+}
+#search-button:hover{
+  color: #ffffff;
+background-color: #03045E;
+}
+#search-input{
+background: none;
+width: 204px;
+height: 34px;
+border-radius: 2px;
+font-size: 1rem;
+margin-top: 5px;
+margin-bottom: 5px;
+padding-top: 5px;
+padding-bottom: 5px;
+overflow: scroll;
+outline: none;
+color: #03045E;
+font-family: 'Merriweather', serif;
+border-bottom: 2px solid;
+}
+input{
+  border: none;
+}

@@ -1,0 +1,56 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-color: #FFA1C9;
+  height: 100px;
+  align-content: center;
+  background-image: url("icons/wallpaper5.jpg");
+  background-size: cover;
+}
+
+#temp{
+  text-align: center;
+}
+#temp #temp-unit{
+  font-size: 1.5rem;
+  font-family: sans-serif;
+  color: #ffffff;
+}
+#temp #temp-value{
+  font-size: 2rem;
+  font-family: sans-serif;
+  color: #ffffff;
+}
+#climate{
+  font-size: 2.5rem;
+  font-family: sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+#location{
+  font-size: 2.5rem;
+  font-family: sans-serif;
+  color: #ffffff;
+  text-align: center;
+}
+#temp-icon{
+  margin: 1rem;
+  width: 40%;
+  height: auto;
+}
+main{
+  padding: 20px;
+  background-color: #F94892;
+  border-radius: 20px;
+  width: 360px;
+  height: 360px;
+  display: block;
+  align-content: center;
+  margin-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+
+}

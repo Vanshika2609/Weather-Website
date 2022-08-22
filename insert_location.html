@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Particular Location</title>
+    <link rel="stylesheet" href="style_insert.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather" rel="stylesheet">
+  </head>
+  <body>
+    <form id="search-form" action="index.html" method="post">
+      <input type="text" placeholder="Enter city name" id="search-input" required>
+      <br>
+      <button type="search" name="button" id="search-button">Search</button>
+
+    </form>
+    <main id="app-container">
+      <div id="location">
+        <p>-------</p>
+      </div>
+      <div id="temp">
+        <img id="temp-icon" src="icons/clear.png" alt="">
+        <p><span id="temp-value">------</span> <span id="temp-unit">&#176c</span></p>
+      </div>
+      <div id="climate">
+        <p>-------</p>
+
+      </div>
+
+    </main>
+    <script src="insert_location.js"></script>
+  </body>
+</html>
